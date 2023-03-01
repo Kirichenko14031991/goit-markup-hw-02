@@ -1,26 +1,184 @@
+:root {
+  --primary-font: var 'Roboto', sans-serif;
+  --secondary-font: var 'Raleway', sans-serif;
+  --primary-text-color: var #2e2f42;
+  --secondary-text-color: var #434455;
+}
 .list {
-    list-style: none;
+  list-style: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
-.menu-link {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+.logo {
+  text-decoration: none;
+}
+body {
+  font-family: var (--primary-font);
+  color: var(--primary-text-color);
+}
+/*============COMPONENTS============*/
+.modal-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  align-items: center;
+  cursor: pointer;
 
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
-  /* NAVY BLUE */
+  color: var(--secondary-text-color);
+}
+.title-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--primary-text-color);
+}
+.third-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+.text-center {
+  text-align: center;
+}
+.btn-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: #d9d9d9;
+  background-color: #404bbf;
+}
+
+/*============/COMPONENTS============*/
+/*============HEADER============*/
+.logo-header {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+.studio-header {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   color: #2e2f42;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.phone-number {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.phone-number:hover,
+.phone-number:focus {
+  color: #404bbf;
+}
+.mail {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.mail:hover,
+.mail:focus {
+  color: #404bbf;
+}
+/*============/HEADER============*/
+/*============/HERO============*/
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+/*============/HERO============*/
+/*============FOOTER============*/
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+.studio-footer {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+/*============/FOOTER============*/
